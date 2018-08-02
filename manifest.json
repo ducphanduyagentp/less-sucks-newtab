@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "pwned by fpasswd",
+    "version": "1.0",
+    "description": "Google Chrome's newtab sucks. Here's mine.",
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    }
+}
