@@ -1,19 +1,54 @@
 <html>
 
 <head>
-    <title>pwned ;)</title>
+    <title>How to make newtab less sucks</title>
     <style>
         body {
-            background-image: url('pwned.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+            background-color: black;
+            display: table-cell;
+            vertical-align: middle;
+            width: 100%;
+        }
+        p {
+            color: white;
+            font-family: sans-serif;
+            vertical-align: middle;
+            font-size: 100px;
+            width: 100%;
+            text-align: center;
+        }
+        div {
+            width: 100%;
+        }
+        .outer {
+          display: table;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+        }
+        .middle {
+          display: table-cell;
+          vertical-align: middle;
+        }
+        .inner {
+          margin-left: auto;
+          margin-right: auto;
+          width: 400px;
+          /*whatever width you want*/       
         }
     </style>
 </head>
 
-<body>
-    <p> pwned ;) </p>
+<body>  
+    <div class="outer">
+      <div class="middle">
+        <div class="inner">
+            <p>
+                <b>pwned&nbsp;;)</b>
+            </p>
+        </div>
+      </div>
+    </div>
 </body>
 
 </html>
